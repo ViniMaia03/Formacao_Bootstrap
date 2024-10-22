@@ -49,3 +49,20 @@ input[type="checkbox"]:focus {
 .banner-titulo {
     --bs-bg-opacity: .2; /* TRANSPARÊCIA */
 }
+
+/* NOSSOS SERVIÇOS */
+
+.card {
+    width: 20rem;
+}
+
+.botao-padrao {
+    background-color: var(--marrom-claro);
+}
+
+/* OFFCANVAS */
+
+.accordion-button,
+.accordion-button:focus {
+    background-color: var(--marrom-claro);
+}
