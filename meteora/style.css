@@ -1,0 +1,30 @@
+.verde-limao {
+    color: #DAFF01;
+}
+
+.btn-lilas {
+    background-color: #9353FF;
+    color: #FFF;
+}
+
+.facilidades__desc {
+    font-size: 13px;
+}
+
+.div-novidades, .facilidades__div {
+    width: 325px;
+}
+
+.posicao{
+    top: 40%;
+}
+
+footer {
+    height: 70px;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
