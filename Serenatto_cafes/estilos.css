@@ -7,6 +7,7 @@ body {
     --marrom-escuro: #816D4F;
     --marrom-claro: #B29463;
     --preto: #000;
+    --branco: #FFF;
     font-family: "Barlow", sans-serif;
     height: 4000px;
 }
@@ -82,6 +83,27 @@ input[type="checkbox"]:focus {
     width: 100%;
 }
 
+/* FORMULÁRIO */
+
 .input-range::-webkit-slider-thumb {
     background-color: var(--marrom-claro);
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: var(--marrom-claro);
+}
+
+/* DARK MODE */
+
+[data-bs-theme="dark"] {
+    color: #fff;;
+    .nav-link, .card-body, .offcanvas, .accordion, .btn {
+        --bs-nav-link-color: #fff;
+        --bs-card-color: #fff;
+        --bs-offcanvas-color: #fff;
+        --bs-body-color: #fff;
+        --bs-body-color: #fff;
+    }
 }
