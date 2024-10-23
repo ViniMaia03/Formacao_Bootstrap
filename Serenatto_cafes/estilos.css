@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* ESTILIZAÇÃO GERAL*/
 
 body {
     --bege: #E6E0D6;
     --marrom-escuro: #816D4F;
     --marrom-claro: #B29463;
-    font-family: 'Barlow', sans-serif;
+    --preto: #000;
+    font-family: "Barlow", sans-serif;
     height: 4000px;
 }
 
@@ -58,11 +61,27 @@ input[type="checkbox"]:focus {
 
 .botao-padrao {
     background-color: var(--marrom-claro);
+    color: var(--preto);
 }
 
 /* OFFCANVAS */
 
 .accordion-button,
 .accordion-button:focus {
+    background-color: var(--marrom-claro);
+}
+
+/* NOSSOS PRODUTOS */
+
+.card-produto {
+    width: 18rem;
+}
+
+.produtos {
+    justify-content: center;
+    width: 100%;
+}
+
+.input-range::-webkit-slider-thumb {
     background-color: var(--marrom-claro);
 }
